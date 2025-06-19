@@ -97,7 +97,7 @@ def format_formations(formations):
     return "\n".join(result)
 
 def mapping_cv(file):
-    url = "http://52.47.80.151:8000/reformulate-cv/"
+    url = "http://35.181.31.39:8000/reformulate-cv/"
 
     response = requests.post(url, files={'file': file})
     if response.status_code == 200:
